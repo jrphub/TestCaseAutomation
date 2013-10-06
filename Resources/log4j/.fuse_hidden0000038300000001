@@ -1,0 +1,140 @@
+2013-06-08 19:37:26,206 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-08 19:37:26,849 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-08 19:37:26,852 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-08 19:37:26,877 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario bean object
+2013-06-08 19:37:26,878 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-08 19:37:26,879 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for Order Place
+2013-06-08 19:37:26,879 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-08 19:37:26,880 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario Order Place
+2013-06-08 19:37:26,880 INFO [main] (com.automation.module.ProcessScenario) – Scenario Order Place is started from row 1
+2013-06-08 19:37:26,881 INFO [main] (com.automation.module.ProcessScenario) – Scenario Order Place is ended at row 7
+2013-06-08 19:38:22,253 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario ZSMART Login and Open Customer Page
+2013-06-08 19:38:32,007 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Username is [LOGIN-ID]
+2013-06-08 19:45:24,558 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Select Formal Order and Offer
+2013-06-08 19:45:25,428 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Password is [PASSWORD]
+2013-06-08 19:46:34,396 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-08 19:46:35,033 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-08 19:46:35,036 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-08 19:46:35,038 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario bean object
+2013-06-08 19:46:35,038 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-08 19:46:35,039 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for Order Place
+2013-06-08 19:46:35,040 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-08 19:46:35,040 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario Order Place
+2013-06-08 19:46:35,042 INFO [main] (com.automation.module.ProcessScenario) – Scenario Order Place is started from row 1
+2013-06-08 19:46:35,042 INFO [main] (com.automation.module.ProcessScenario) – Scenario Order Place is ended at row 7
+2013-06-08 19:47:35,596 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario ZSMART Login and Open Customer Page
+2013-06-08 19:47:37,933 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Username is [LOGIN-ID]
+2013-06-08 19:47:51,708 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Select Formal Order and Offer
+2013-06-08 19:51:03,104 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Password is [PASSWORD]
+2013-06-08 19:57:50,555 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-08 19:57:51,242 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-08 19:57:51,245 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-08 19:57:51,247 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario bean object
+2013-06-08 19:57:51,247 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-08 19:57:51,248 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for Order Place
+2013-06-08 19:57:51,249 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-08 19:57:51,250 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario Order Place
+2013-06-08 19:57:51,250 INFO [main] (com.automation.module.ProcessScenario) – Scenario Order Place is started from row 1
+2013-06-08 19:57:51,251 INFO [main] (com.automation.module.ProcessScenario) – Scenario Order Place is ended at row 7
+2013-06-08 19:57:51,254 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario ZSMART Login and Open Customer Page
+2013-06-08 19:57:51,256 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Username is [LOGIN-ID]
+2013-06-08 19:57:51,259 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Select Formal Order and Offer
+2013-06-08 19:57:51,260 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Password is [PASSWORD]
+2013-06-08 19:57:51,261 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Enter Product Information
+2013-06-08 19:57:51,262 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  CUST_ID is [CUST_ID]
+2013-06-08 19:57:51,262 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Enter 'A' Details
+2013-06-08 19:57:51,263 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  a
+2013-06-08 19:57:51,264 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Enter 'Z' Details
+2013-06-08 19:57:51,264 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  b
+2013-06-08 19:57:51,265 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Order Submit
+2013-06-08 19:57:51,266 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Second is [Second]
+2013-06-08 19:59:34,629 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-08 19:59:35,275 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-08 19:59:35,278 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-08 19:59:35,280 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario bean object
+2013-06-08 19:59:35,280 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-08 19:59:35,281 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for Order Place
+2013-06-08 19:59:35,282 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-08 19:59:35,282 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario Order Place
+2013-06-08 19:59:35,283 INFO [main] (com.automation.module.ProcessScenario) – Scenario Order Place is started from row 1
+2013-06-08 19:59:35,283 INFO [main] (com.automation.module.ProcessScenario) – Scenario Order Place is ended at row 7
+2013-06-08 19:59:38,611 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario ZSMART Login and Open Customer Page
+2013-06-08 19:59:39,589 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Username is [LOGIN-ID]
+2013-06-08 19:59:45,286 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Select Formal Order and Offer
+2013-06-08 19:59:45,959 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Password is [PASSWORD]
+2013-06-08 19:59:53,317 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Enter Product Information
+2013-06-08 19:59:54,097 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  CUST_ID is [CUST_ID]
+2013-06-08 20:00:17,084 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Enter 'A' Details
+2013-06-08 20:00:17,828 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  a
+2013-06-08 20:00:23,429 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Enter 'Z' Details
+2013-06-08 20:00:24,172 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  b
+2013-06-08 20:00:36,868 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Order Submit
+2013-06-08 20:00:37,708 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Second is [Second]
+2013-06-08 20:03:01,512 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-08 20:03:02,162 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-08 20:03:02,165 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-08 20:03:02,167 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario bean object
+2013-06-08 20:03:02,167 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-08 20:03:02,168 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for Order Place
+2013-06-08 20:03:02,169 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-08 20:03:02,169 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario Order Place
+2013-06-08 20:03:02,170 INFO [main] (com.automation.module.ProcessScenario) – Scenario Order Place is started from row 1
+2013-06-08 20:03:02,171 INFO [main] (com.automation.module.ProcessScenario) – Scenario Order Place is ended at row 7
+2013-06-08 20:03:07,461 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario ZSMART Login and Open Customer Page
+2013-06-08 20:03:07,690 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Username is [LOGIN-ID]
+2013-06-08 20:03:10,213 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Select Formal Order and Offer
+2013-06-08 20:03:10,525 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Password is [PASSWORD]
+2013-06-08 20:03:12,982 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Enter Product Information
+2013-06-08 20:03:13,323 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  CUST_ID is [CUST_ID]
+2013-06-08 20:03:16,688 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Enter 'A' Details
+2013-06-08 20:03:16,852 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  a
+2013-06-08 20:03:25,308 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Enter 'Z' Details
+2013-06-08 20:03:26,342 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  b
+2013-06-08 20:03:36,348 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Order Submit
+2013-06-08 20:03:37,703 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Second is [Second]
+2013-06-08 20:22:06,276 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-08 20:22:06,852 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-08 20:22:06,855 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-08 20:22:06,857 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario bean object
+2013-06-08 20:22:06,857 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-08 20:22:06,858 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for Order Place
+2013-06-08 20:22:06,859 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-08 20:22:06,859 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario Order Place
+2013-06-08 20:22:06,860 INFO [main] (com.automation.module.ProcessScenario) – Scenario Order Place is started from row 1
+2013-06-08 20:22:06,860 INFO [main] (com.automation.module.ProcessScenario) – Scenario Order Place is ended at row 7
+2013-06-08 20:22:06,863 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario ZSMART Login and Open Customer Page
+2013-06-08 20:22:06,866 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Username is [LOGIN-ID]
+2013-06-08 20:22:06,869 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Select Formal Order and Offer
+2013-06-08 20:22:06,870 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Password is [PASSWORD]
+2013-06-08 20:22:06,870 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Enter Product Information
+2013-06-08 20:22:06,871 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  CUST_ID is [CUST_ID]
+2013-06-08 20:22:06,872 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Enter 'A' Details
+2013-06-08 20:22:06,872 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  a
+2013-06-08 20:22:06,873 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Enter 'Z' Details
+2013-06-08 20:22:06,873 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  b
+2013-06-08 20:22:06,874 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Order Submit
+2013-06-08 20:22:06,877 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Second is [Second]
+2013-06-08 20:22:06,880 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario bean object
+2013-06-08 20:22:06,880 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-08 20:22:06,881 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for Resource Design
+2013-06-08 20:22:06,881 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-08 20:22:06,882 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario Resource Design
+2013-06-08 20:22:06,882 INFO [main] (com.automation.module.ProcessScenario) – Scenario Resource Design is started from row 17
+2013-06-08 20:22:06,883 INFO [main] (com.automation.module.ProcessScenario) – Scenario Resource Design is ended at row 20
+2013-06-08 20:22:06,883 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Refresh Button and Enter Order Id
+2013-06-08 20:22:06,884 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Username is [LOGIN-ID]
+2013-06-08 20:22:06,886 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Click Check-In button
+2013-06-08 20:22:06,886 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Password is [PASSWORD]
+2013-06-08 20:22:06,888 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Select  OK
+2013-06-08 20:22:06,888 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Second is [Second]
+2013-06-08 20:22:06,890 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario bean object
+2013-06-08 20:22:06,890 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-08 20:22:06,891 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for Creation of New Shelf
+2013-06-08 20:22:06,891 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-08 20:22:06,892 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario Creation of New Shelf
+2013-06-08 20:22:06,893 INFO [main] (com.automation.module.ProcessScenario) – Scenario Creation of New Shelf is started from row 8
+2013-06-08 20:22:06,898 INFO [main] (com.automation.module.ProcessScenario) – Scenario Creation of New Shelf is ended at row 10
+2013-06-08 20:22:06,899 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Select  OK
+2013-06-08 20:22:06,899 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  v
+2013-06-08 20:22:06,900 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario Fill Card Model Information
+2013-06-08 20:22:06,901 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is  Username is [LOGIN-ID]

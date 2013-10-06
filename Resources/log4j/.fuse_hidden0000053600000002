@@ -1,0 +1,567 @@
+2013-06-09 19:41:15,726 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-09 19:41:18,893 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-09 19:41:18,894 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-09 19:41:18,896 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Order Place' bean object
+2013-06-09 19:41:18,897 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 19:41:18,898 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Order Place'
+2013-06-09 19:41:18,899 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 19:41:18,899 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Order Place'
+2013-06-09 19:41:32,112 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is started from row 1
+2013-06-09 19:41:32,113 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is ended at row 7
+2013-06-09 19:41:32,117 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 19:41:32,118 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 19:41:32,128 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 19:41:39,765 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 19:41:39,766 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 19:41:39,767 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 19:41:39,767 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=Gmail;Wait|3000
+2013-06-09 19:41:41,524 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 19:41:41,525 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter Product Information'
+2013-06-09 19:41:41,533 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|linkText=[Link Text]: Email from Google|Sleep:[Time]
+2013-06-09 19:41:41,534 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|linkText=Gmail: Email from Google|Sleep:3000
+2013-06-09 19:41:46,116 INFO [main] (com.automation.module.ProcessScripts) – Expected value: linkText=Gmail: Email from Google is Fail
+2013-06-09 19:41:46,117 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter Product Information' is completed
+2013-06-09 19:41:46,118 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'A' Details'
+2013-06-09 19:41:46,118 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'A' Details' is completed and it has no scripts
+2013-06-09 19:41:46,119 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'Z' Details'
+2013-06-09 19:41:46,119 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'Z' Details' is completed and it has no scripts
+2013-06-09 19:41:46,120 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Order Submit'
+2013-06-09 19:41:46,121 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Order Submit' is completed and it has no scripts
+2013-06-09 19:41:46,222 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: Order Place is completed
+2013-06-09 19:41:46,223 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Order Place'
+2013-06-09 19:41:46,224 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Resource Design' bean object
+2013-06-09 19:41:46,224 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 19:41:46,225 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Resource Design'
+2013-06-09 19:41:46,226 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 19:41:46,226 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Resource Design'
+2013-06-09 19:41:53,752 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Resource Design' is ended at row 7
+2013-06-09 19:41:53,754 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 19:41:53,754 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 19:41:53,755 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 19:42:01,273 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 19:42:01,274 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 19:42:01,275 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 19:42:01,275 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=Google;Wait|3000
+2013-06-09 19:42:03,483 ERROR [main] (com.automation.module.ProcessSubScenario) – Execution of 'Select Formal Order and Offer' is FAILED due to 
+Unable to locate element: {"method":"link text","selector":"Google"}
+Command duration or timeout: 2.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.27.0', revision: '18259', time: '2012-12-05 19:24:26'
+System info: os.name: 'Linux', os.arch: 'i386', os.version: '3.5.0-17-generic', java.version: '1.7.0_15'
+Session ID: 8209de5c-7c9f-4f80-b553-13ee402e95b5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=16.0.1}]
+2013-06-09 19:42:03,484 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 19:42:05,480 INFO [main] (com.automation.module.ProcessScenario) – Screenshot is created
+2013-06-09 19:42:05,567 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: Resource Design is completed
+2013-06-09 19:42:05,568 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Resource Design'
+2013-06-09 19:42:05,569 INFO [main] (com.automation.module.ProcessMain) – Application finished.........................
+2013-06-09 19:44:02,003 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-09 19:44:05,566 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-09 19:44:05,567 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-09 19:44:05,570 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Order Place' bean object
+2013-06-09 19:44:05,571 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 19:44:05,571 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Order Place'
+2013-06-09 19:44:05,572 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 19:44:05,573 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Order Place'
+2013-06-09 19:44:18,979 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is started from row 1
+2013-06-09 19:44:18,980 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is ended at row 7
+2013-06-09 19:44:18,984 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 19:44:18,985 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 19:44:18,994 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 19:44:25,347 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 19:44:25,348 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 19:44:25,349 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 19:44:25,349 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=Gmail;Wait|3000
+2013-06-09 19:44:27,017 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 19:44:27,018 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter Product Information'
+2013-06-09 19:44:27,019 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|linkText=[Link Text]: Email from Google|Sleep:[Time]
+2013-06-09 19:44:27,020 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|linkText=Gmail: Email from Google|Sleep:3000
+2013-06-09 19:44:30,610 INFO [main] (com.automation.module.ProcessScripts) – Expected value: linkText=Gmail: Email from Google is Fail
+2013-06-09 19:44:30,611 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter Product Information' is completed
+2013-06-09 19:44:30,612 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'A' Details'
+2013-06-09 19:44:30,613 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'A' Details' is completed and it has no scripts
+2013-06-09 19:44:30,613 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'Z' Details'
+2013-06-09 19:44:30,614 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'Z' Details' is completed and it has no scripts
+2013-06-09 19:44:30,614 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Order Submit'
+2013-06-09 19:44:30,615 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Order Submit' is completed and it has no scripts
+2013-06-09 19:44:30,712 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: Order Place is completed
+2013-06-09 19:44:30,713 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Order Place'
+2013-06-09 19:44:30,714 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Resource Design' bean object
+2013-06-09 19:44:30,715 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 19:44:30,715 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Resource Design'
+2013-06-09 19:44:30,716 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 19:44:30,717 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Resource Design'
+2013-06-09 19:44:37,691 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Resource Design' is ended at row 7
+2013-06-09 19:44:37,693 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 19:44:37,693 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 19:44:37,694 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 19:44:43,373 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 19:44:43,375 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 19:44:43,377 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 19:44:43,378 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=News;Wait|3000
+2013-06-09 19:44:45,247 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 19:44:45,248 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter Product Information'
+2013-06-09 19:44:45,249 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|linkText=[Link Text]: Email from Google|Sleep:[Time]
+2013-06-09 19:44:45,250 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|linkText=News: Email from Google|Sleep:3000
+2013-06-09 19:44:53,564 INFO [main] (com.automation.module.ProcessScripts) – Expected value: linkText=News: Email from Google is Fail
+2013-06-09 19:44:53,565 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter Product Information' is completed
+2013-06-09 19:44:53,565 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'A' Details'
+2013-06-09 19:44:53,566 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'A' Details' is completed and it has no scripts
+2013-06-09 19:44:53,567 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'Z' Details'
+2013-06-09 19:44:53,568 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'Z' Details' is completed and it has no scripts
+2013-06-09 19:44:53,568 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Order Submit'
+2013-06-09 19:44:53,569 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Order Submit' is completed and it has no scripts
+2013-06-09 19:44:53,661 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: Resource Design is completed
+2013-06-09 19:44:53,662 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Resource Design'
+2013-06-09 19:44:53,663 INFO [main] (com.automation.module.ProcessMain) – Application finished.........................
+2013-06-09 19:46:55,485 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-09 19:46:58,617 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-09 19:46:58,618 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-09 19:46:58,620 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Order Place' bean object
+2013-06-09 19:46:58,621 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 19:46:58,622 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Order Place'
+2013-06-09 19:46:58,623 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 19:46:58,623 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Order Place'
+2013-06-09 19:47:11,699 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is started from row 1
+2013-06-09 19:47:11,700 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is ended at row 7
+2013-06-09 19:47:11,702 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 19:47:11,703 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 19:47:11,711 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 19:47:19,063 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 19:47:19,064 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 19:47:19,065 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 19:47:19,066 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=Gmail;Wait|3000
+2013-06-09 19:47:20,803 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 19:47:20,804 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter Product Information'
+2013-06-09 19:47:20,805 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|linkText=[Link Text]: Email from Google;Sleep|[Time]
+2013-06-09 19:47:20,806 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|linkText=Gmail: Email from Google;Sleep|3000
+2013-06-09 19:47:24,456 INFO [main] (com.automation.module.ProcessScripts) – Expected value: linkText=Gmail: Email from Google is Fail
+2013-06-09 19:47:27,458 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter Product Information' is completed
+2013-06-09 19:47:27,458 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'A' Details'
+2013-06-09 19:47:27,459 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'A' Details' is completed and it has no scripts
+2013-06-09 19:47:27,459 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'Z' Details'
+2013-06-09 19:47:27,460 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'Z' Details' is completed and it has no scripts
+2013-06-09 19:47:27,460 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Order Submit'
+2013-06-09 19:47:27,461 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Order Submit' is completed and it has no scripts
+2013-06-09 19:47:27,550 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: Order Place is completed
+2013-06-09 19:47:27,551 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Order Place'
+2013-06-09 19:47:27,551 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Resource Design' bean object
+2013-06-09 19:47:27,552 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 19:47:27,552 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Resource Design'
+2013-06-09 19:47:27,553 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 19:47:27,553 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Resource Design'
+2013-06-09 19:47:34,968 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Resource Design' is ended at row 7
+2013-06-09 19:47:34,969 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 19:47:34,969 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 19:47:34,971 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 19:47:42,111 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 19:47:42,135 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 19:47:42,135 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 19:47:42,136 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=News;Wait|3000
+2013-06-09 19:47:44,235 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 19:47:44,237 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter Product Information'
+2013-06-09 19:47:44,238 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|linkText=[Link Text]: Email from Google;Sleep|[Time]
+2013-06-09 19:47:44,239 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|linkText=News: Email from Google;Sleep|3000
+2013-06-09 19:47:56,634 INFO [main] (com.automation.module.ProcessScripts) – Expected value: linkText=News: Email from Google is Fail
+2013-06-09 19:47:59,635 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter Product Information' is completed
+2013-06-09 19:47:59,654 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'A' Details'
+2013-06-09 19:47:59,657 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'A' Details' is completed and it has no scripts
+2013-06-09 19:47:59,673 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'Z' Details'
+2013-06-09 19:47:59,674 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'Z' Details' is completed and it has no scripts
+2013-06-09 19:47:59,674 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Order Submit'
+2013-06-09 19:47:59,675 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Order Submit' is completed and it has no scripts
+2013-06-09 19:47:59,841 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: Resource Design is completed
+2013-06-09 19:47:59,842 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Resource Design'
+2013-06-09 19:47:59,842 INFO [main] (com.automation.module.ProcessMain) – Application finished.........................
+2013-06-09 19:57:59,273 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-09 19:58:02,500 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-09 19:58:02,501 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-09 19:58:02,503 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Order Place' bean object
+2013-06-09 19:58:02,504 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 19:58:02,504 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Order Place'
+2013-06-09 19:58:02,505 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 19:58:02,505 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Order Place'
+2013-06-09 19:58:15,772 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is started from row 1
+2013-06-09 19:58:15,773 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is ended at row 7
+2013-06-09 19:58:15,776 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 19:58:15,777 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 19:58:15,785 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 19:58:22,357 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 19:58:22,358 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 19:58:22,359 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 19:58:22,360 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=Gmail;Wait|3000
+2013-06-09 19:58:24,326 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 19:58:24,327 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter Product Information'
+2013-06-09 19:58:24,335 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|linkText=[Link Text]: Email from Google;Sleep|[Time]
+2013-06-09 19:58:24,338 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|linkText=Gmail: Email from Google;Sleep|3000
+2013-06-09 19:58:28,999 INFO [main] (com.automation.module.ProcessScripts) – Expected value: linkText=Gmail: Email from Google is Fail
+2013-06-09 19:58:32,000 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter Product Information' is completed
+2013-06-09 19:58:32,001 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'A' Details'
+2013-06-09 19:58:32,002 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'A' Details' is completed and it has no scripts
+2013-06-09 19:58:32,003 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'Z' Details'
+2013-06-09 19:58:32,004 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'Z' Details' is completed and it has no scripts
+2013-06-09 19:58:32,005 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Order Submit'
+2013-06-09 19:58:32,005 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Order Submit' is completed and it has no scripts
+2013-06-09 19:58:32,102 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: Order Place is completed
+2013-06-09 19:58:32,110 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Order Place'
+2013-06-09 19:58:32,110 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Resource Design' bean object
+2013-06-09 19:58:32,113 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 19:58:32,114 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Resource Design'
+2013-06-09 19:58:32,115 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 19:58:32,115 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Resource Design'
+2013-06-09 19:58:39,255 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Resource Design' is ended at row 1
+2013-06-09 19:58:39,256 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'SUB-SCENARIO'
+2013-06-09 19:58:39,257 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  SCRIPTS
+2013-06-09 19:58:39,259 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: SCRIPTS
+2013-06-09 19:58:39,259 ERROR [main] (com.automation.module.ProcessSubScenario) – Execution of 'SUB-SCENARIO' is FAILED due to 
+null
+2013-06-09 19:58:39,260 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'SUB-SCENARIO' is completed
+2013-06-09 19:58:39,488 INFO [main] (com.automation.module.ProcessScenario) – Screenshot is created
+2013-06-09 19:58:39,595 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: Resource Design is completed
+2013-06-09 19:58:39,596 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Resource Design'
+2013-06-09 19:58:39,596 INFO [main] (com.automation.module.ProcessMain) – Application finished.........................
+2013-06-09 20:02:56,800 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-09 20:02:59,942 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-09 20:02:59,943 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-09 20:02:59,945 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Order Place' bean object
+2013-06-09 20:02:59,946 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 20:02:59,947 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Order Place'
+2013-06-09 20:02:59,947 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 20:02:59,948 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Order Place'
+2013-06-09 20:03:13,609 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is started from row 1
+2013-06-09 20:03:13,610 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is ended at row 7
+2013-06-09 20:03:13,613 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 20:03:13,614 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 20:03:13,621 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 20:03:20,754 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 20:03:20,755 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 20:03:20,756 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 20:03:20,757 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=Gmail;Wait|3000
+2013-06-09 20:03:23,618 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 20:03:23,620 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter Product Information'
+2013-06-09 20:03:23,620 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|linkText=[Link Text]: Email from Google;Sleep|[Time]
+2013-06-09 20:03:23,621 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|linkText=Gmail: Email from Google;Sleep|3000
+2013-06-09 20:03:27,764 INFO [main] (com.automation.module.ProcessScripts) – Expected value: linkText=Gmail: Email from Google is Fail
+2013-06-09 20:03:30,765 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter Product Information' is completed
+2013-06-09 20:03:30,766 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'A' Details'
+2013-06-09 20:03:30,767 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'A' Details' is completed and it has no scripts
+2013-06-09 20:03:30,768 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'Z' Details'
+2013-06-09 20:03:30,769 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'Z' Details' is completed and it has no scripts
+2013-06-09 20:03:30,770 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Order Submit'
+2013-06-09 20:03:30,771 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Order Submit' is completed and it has no scripts
+2013-06-09 20:03:30,965 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: Order Place is completed
+2013-06-09 20:03:30,966 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Order Place'
+2013-06-09 20:03:30,966 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Resource Design' bean object
+2013-06-09 20:03:30,967 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 20:03:30,967 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Resource Design'
+2013-06-09 20:03:30,968 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 20:03:30,969 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Resource Design'
+2013-06-09 20:03:38,234 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Resource Design' is ended at row 1
+2013-06-09 20:03:38,235 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'SUB-SCENARIO'
+2013-06-09 20:03:38,236 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  SCRIPTS
+2013-06-09 20:03:38,237 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: SCRIPTS
+2013-06-09 20:03:38,238 ERROR [main] (com.automation.module.ProcessSubScenario) – Execution of 'SUB-SCENARIO' is FAILED due to 
+null
+2013-06-09 20:03:38,238 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'SUB-SCENARIO' is completed
+2013-06-09 20:03:38,511 INFO [main] (com.automation.module.ProcessScenario) – Screenshot is created
+2013-06-09 20:03:38,630 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: Resource Design is completed
+2013-06-09 20:03:38,633 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Resource Design'
+2013-06-09 20:03:38,634 INFO [main] (com.automation.module.ProcessMain) – Application finished.........................
+2013-06-09 20:08:12,813 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-09 20:08:13,432 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-09 20:08:16,193 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-09 20:08:16,196 INFO [main] (com.automation.module.ProcessMain) – Application finished............
+2013-06-09 20:08:16,197 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Order Place' bean object
+2013-06-09 20:08:16,197 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 20:08:16,198 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Order Place'
+2013-06-09 20:08:16,198 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 20:08:16,199 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Order Place'
+2013-06-09 20:08:29,357 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is started from row 1
+2013-06-09 20:08:29,358 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is ended at row 7
+2013-06-09 20:08:29,361 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 20:08:29,362 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 20:08:29,370 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 20:08:34,859 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 20:08:34,860 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 20:08:34,861 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 20:08:34,861 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=Gmail;Wait|3000
+2013-06-09 20:08:36,775 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 20:08:36,776 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter Product Information'
+2013-06-09 20:08:36,776 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|linkText=[Link Text]: Email from Google;Sleep|[Time]
+2013-06-09 20:08:36,777 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|linkText=Gmail: Email from Google;Sleep|3000
+2013-06-09 20:08:40,723 INFO [main] (com.automation.module.ProcessScripts) – Expected value: linkText=Gmail: Email from Google is Fail
+2013-06-09 20:08:43,724 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter Product Information' is completed
+2013-06-09 20:08:43,725 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'A' Details'
+2013-06-09 20:08:43,726 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'A' Details' is completed and it has no script
+2013-06-09 20:08:43,726 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'Z' Details'
+2013-06-09 20:08:43,727 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'Z' Details' is completed and it has no script
+2013-06-09 20:08:43,727 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Order Submit'
+2013-06-09 20:08:43,728 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Order Submit' is completed and it has no script
+2013-06-09 20:08:43,820 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: 'Order Place' is completed
+2013-06-09 20:08:43,822 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Order Place'
+2013-06-09 20:08:43,823 INFO [main] (com.automation.module.ProcessMain) – Application finished............
+2013-06-09 20:08:43,824 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Resource Design' bean object
+2013-06-09 20:08:43,825 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 20:08:43,826 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Resource Design'
+2013-06-09 20:08:43,826 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 20:08:43,827 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Resource Design'
+2013-06-09 20:08:50,830 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Resource Design' is started from row 17
+2013-06-09 20:08:50,831 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Resource Design' is ended at row 20
+2013-06-09 20:08:50,832 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Refresh Button and Enter Order Id'
+2013-06-09 20:08:50,833 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 20:08:50,834 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 20:08:57,147 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Refresh Button and Enter Order Id' is completed
+2013-06-09 20:08:57,148 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Click Check-In button'
+2013-06-09 20:08:57,149 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 20:08:57,150 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=News;Wait|3000
+2013-06-09 20:08:58,772 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Click Check-In button' is completed
+2013-06-09 20:08:58,772 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select  OK'
+2013-06-09 20:08:58,773 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|Google News;Sleep:[Time]
+2013-06-09 20:08:58,774 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|Google News;Sleep:3000
+2013-06-09 20:09:07,602 INFO [main] (com.automation.module.ProcessScripts) – Expected value: Google News is Pass
+2013-06-09 20:09:07,603 ERROR [main] (com.automation.module.ProcessSubScenario) – Execution of 'Select  OK' is FAILED due to 
+null
+2013-06-09 20:09:07,604 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select  OK' is completed
+2013-06-09 20:09:10,667 INFO [main] (com.automation.module.ProcessScenario) – Screenshot is created
+2013-06-09 20:09:10,756 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: 'Resource Design' is completed
+2013-06-09 20:09:10,757 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Resource Design'
+2013-06-09 20:09:10,758 INFO [main] (com.automation.module.ProcessMain) – Application finished............
+2013-06-09 20:11:40,541 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-09 20:11:41,105 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-09 20:11:43,564 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-09 20:11:43,567 INFO [main] (com.automation.module.ProcessMain) – Application finished............
+2013-06-09 20:11:43,567 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Order Place' bean object
+2013-06-09 20:11:43,568 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 20:11:43,568 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Order Place'
+2013-06-09 20:11:43,569 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 20:11:43,569 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Order Place'
+2013-06-09 20:11:56,644 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is started from row 1
+2013-06-09 20:11:56,645 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is ended at row 7
+2013-06-09 20:11:56,648 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 20:11:56,648 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 20:11:56,656 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 20:12:02,265 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 20:12:02,266 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 20:12:02,267 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 20:12:02,268 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=Gmail;Wait|3000
+2013-06-09 20:12:04,149 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 20:12:04,150 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter Product Information'
+2013-06-09 20:12:04,158 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|Gmail: Email from Google;Sleep|[Time]
+2013-06-09 20:12:04,159 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|Gmail: Email from Google;Sleep|3000
+2013-06-09 20:12:08,049 INFO [main] (com.automation.module.ProcessScripts) – Expected value: Gmail: Email from Google is Pass
+2013-06-09 20:12:11,050 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter Product Information' is completed
+2013-06-09 20:12:11,051 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'A' Details'
+2013-06-09 20:12:11,052 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'A' Details' is completed and it has no script
+2013-06-09 20:12:11,053 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'Z' Details'
+2013-06-09 20:12:11,054 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'Z' Details' is completed and it has no script
+2013-06-09 20:12:11,055 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Order Submit'
+2013-06-09 20:12:11,055 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Order Submit' is completed and it has no script
+2013-06-09 20:12:11,156 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: 'Order Place' is completed
+2013-06-09 20:12:11,157 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Order Place'
+2013-06-09 20:12:11,158 INFO [main] (com.automation.module.ProcessMain) – Application finished............
+2013-06-09 20:12:11,159 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Resource Design' bean object
+2013-06-09 20:12:11,160 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 20:12:11,160 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Resource Design'
+2013-06-09 20:12:11,161 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 20:12:11,162 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Resource Design'
+2013-06-09 20:12:18,372 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Resource Design' is started from row 17
+2013-06-09 20:12:18,373 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Resource Design' is ended at row 20
+2013-06-09 20:12:18,374 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Refresh Button and Enter Order Id'
+2013-06-09 20:12:18,374 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 20:12:18,375 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 20:12:23,780 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Refresh Button and Enter Order Id' is completed
+2013-06-09 20:12:23,781 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Click Check-In button'
+2013-06-09 20:12:23,781 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 20:12:23,782 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=News;Wait|3000
+2013-06-09 20:12:25,440 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Click Check-In button' is completed
+2013-06-09 20:12:25,441 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select  OK'
+2013-06-09 20:12:25,442 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|Google News;Sleep|[Time]
+2013-06-09 20:12:25,443 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|Google News;Sleep|3000
+2013-06-09 20:12:32,487 INFO [main] (com.automation.module.ProcessScripts) – Expected value: Google News is Pass
+2013-06-09 20:12:35,488 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select  OK' is completed
+2013-06-09 20:12:35,588 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: 'Resource Design' is completed
+2013-06-09 20:12:35,589 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Resource Design'
+2013-06-09 20:12:35,591 INFO [main] (com.automation.module.ProcessMain) – Application finished............
+2013-06-09 20:29:50,540 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-09 20:29:51,182 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-09 20:29:54,001 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-09 20:29:54,003 INFO [main] (com.automation.module.ProcessMain) – Application finished............
+2013-06-09 20:29:54,004 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Order Place' bean object
+2013-06-09 20:29:54,004 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 20:29:54,005 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Order Place'
+2013-06-09 20:29:54,005 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 20:29:54,006 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Order Place'
+2013-06-09 20:30:08,363 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is started from row 1
+2013-06-09 20:30:08,365 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is ended at row 7
+2013-06-09 20:30:08,368 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 20:30:08,369 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 20:30:08,379 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 20:30:14,168 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 20:30:14,169 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 20:30:14,169 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 20:30:14,170 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=Gmail;Wait|3000
+2013-06-09 20:30:16,073 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 20:30:16,074 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter Product Information'
+2013-06-09 20:30:16,075 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|Gmail: Email from Google;Sleep|[Time]
+2013-06-09 20:30:16,075 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|Gmail: Email from Google;Sleep|3000
+2013-06-09 20:30:20,801 INFO [main] (com.automation.module.ProcessScripts) – Expected value: Gmail: Email from Google is Pass
+2013-06-09 20:30:23,803 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter Product Information' is completed
+2013-06-09 20:30:23,803 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'A' Details'
+2013-06-09 20:30:23,804 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'A' Details' is completed and it has no script
+2013-06-09 20:30:23,805 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'Z' Details'
+2013-06-09 20:30:23,805 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'Z' Details' is completed and it has no script
+2013-06-09 20:30:23,805 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Order Submit'
+2013-06-09 20:30:23,806 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Order Submit' is completed and it has no script
+2013-06-09 20:30:23,919 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: 'Order Place' is completed
+2013-06-09 20:31:56,414 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-09 20:31:57,019 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-09 20:31:59,528 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-09 20:31:59,534 INFO [main] (com.automation.module.ProcessMain) – Application finished............
+2013-06-09 20:31:59,535 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Order Place' bean object
+2013-06-09 20:31:59,536 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 20:31:59,537 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Order Place'
+2013-06-09 20:31:59,537 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 20:31:59,538 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Order Place'
+2013-06-09 20:32:13,230 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is started from row 1
+2013-06-09 20:32:13,231 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is ended at row 7
+2013-06-09 20:32:13,235 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 20:32:13,236 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 20:32:13,246 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 20:32:19,141 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 20:32:19,143 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 20:32:19,143 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 20:32:19,144 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=Gmail;Wait|3000
+2013-06-09 20:32:20,752 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 20:32:20,754 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter Product Information'
+2013-06-09 20:32:20,761 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|Gmail: Email from Google;Sleep|[Time]
+2013-06-09 20:32:20,763 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|Gmail: Email from Google;Sleep|3000
+2013-06-09 20:32:24,537 INFO [main] (com.automation.module.ProcessScripts) – Expected value: Gmail: Email from Google is Pass
+2013-06-09 20:32:27,539 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter Product Information' is completed
+2013-06-09 20:32:27,539 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'A' Details'
+2013-06-09 20:32:27,540 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'A' Details' is completed and it has no script
+2013-06-09 20:32:27,541 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'Z' Details'
+2013-06-09 20:32:27,541 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'Z' Details' is completed and it has no script
+2013-06-09 20:32:27,542 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Order Submit'
+2013-06-09 20:32:27,542 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Order Submit' is completed and it has no script
+2013-06-09 20:32:27,658 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: 'Order Place' is completed
+2013-06-09 20:32:27,659 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Order Place'
+2013-06-09 20:32:27,659 INFO [main] (com.automation.module.ProcessMain) – Application finished............
+2013-06-09 20:32:27,660 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Resource Design' bean object
+2013-06-09 20:32:27,661 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 20:32:27,661 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Resource Design'
+2013-06-09 20:32:27,662 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 20:32:27,663 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Resource Design'
+2013-06-09 20:32:34,805 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Resource Design' is started from row 17
+2013-06-09 20:32:34,806 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Resource Design' is ended at row 20
+2013-06-09 20:32:34,807 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Refresh Button and Enter Order Id'
+2013-06-09 20:32:34,808 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 20:32:34,808 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 20:32:40,289 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Refresh Button and Enter Order Id' is completed
+2013-06-09 20:32:40,291 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Click Check-In button'
+2013-06-09 20:32:40,291 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 20:32:40,292 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=News;Wait|3000
+2013-06-09 20:32:42,376 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Click Check-In button' is completed
+2013-06-09 20:32:42,377 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select  OK'
+2013-06-09 20:32:42,378 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|Google News;Sleep|[Time]
+2013-06-09 20:32:42,379 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|Google News;Sleep|3000
+2013-06-09 20:32:51,462 INFO [main] (com.automation.module.ProcessScripts) – Expected value: Google News is Pass
+2013-06-09 20:32:54,464 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select  OK' is completed
+2013-06-09 20:32:54,554 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: 'Resource Design' is completed
+2013-06-09 20:32:54,555 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is cleared for 'Resource Design'
+2013-06-09 20:32:54,556 INFO [main] (com.automation.module.ProcessMain) – Application finished............
+2013-06-09 20:34:31,750 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-09 20:34:32,338 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-09 20:34:34,843 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-09 20:34:34,846 INFO [main] (com.automation.module.ProcessMain) – Application finished............
+2013-06-09 20:34:34,847 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Order Place' bean object
+2013-06-09 20:34:34,847 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 20:34:34,848 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Order Place'
+2013-06-09 20:34:34,848 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 20:34:34,849 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Order Place'
+2013-06-09 20:34:47,962 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is started from row 1
+2013-06-09 20:34:47,964 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is ended at row 7
+2013-06-09 20:34:47,967 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 20:34:47,968 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 20:34:47,978 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 20:34:54,319 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 20:34:54,321 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 20:34:54,322 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 20:34:54,322 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=Gmail;Wait|3000
+2013-06-09 20:34:56,382 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 20:34:56,383 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter Product Information'
+2013-06-09 20:34:56,383 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|Gmail: Email from Google;Sleep|[Time]
+2013-06-09 20:34:56,384 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|Gmail: Email from Google;Sleep|3000
+2013-06-09 20:35:00,433 INFO [main] (com.automation.module.ProcessScripts) – Expected value: Gmail: Email from Google is Pass
+2013-06-09 20:35:03,434 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter Product Information' is completed
+2013-06-09 20:35:03,435 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'A' Details'
+2013-06-09 20:35:03,436 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'A' Details' is completed and it has no script
+2013-06-09 20:35:03,437 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'Z' Details'
+2013-06-09 20:35:03,438 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'Z' Details' is completed and it has no script
+2013-06-09 20:35:03,439 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Order Submit'
+2013-06-09 20:35:03,440 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Order Submit' is completed and it has no script
+2013-06-09 20:35:03,555 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: 'Order Place' is completed
+2013-06-09 20:38:12,456 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-09 20:38:13,050 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-09 20:38:15,754 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-09 20:38:15,756 INFO [main] (com.automation.module.ProcessMain) – Application finished............
+2013-06-09 20:38:15,757 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Order Place' bean object
+2013-06-09 20:38:15,757 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 20:38:15,758 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Order Place'
+2013-06-09 20:38:15,758 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 20:38:15,759 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Order Place'
+2013-06-09 20:38:28,984 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is started from row 1
+2013-06-09 20:38:28,985 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is ended at row 7
+2013-06-09 20:38:28,989 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 20:38:28,989 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 20:38:28,998 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 20:38:33,706 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 20:38:33,707 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 20:38:33,708 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 20:38:33,709 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=Gmail;Wait|3000
+2013-06-09 20:38:35,552 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 20:38:35,554 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter Product Information'
+2013-06-09 20:38:35,557 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|Gmail: Email from Google;Sleep|[Time]
+2013-06-09 20:38:35,558 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|Gmail: Email from Google;Sleep|3000
+2013-06-09 20:38:39,802 INFO [main] (com.automation.module.ProcessScripts) – Expected value: Gmail: Email from Google is Pass
+2013-06-09 20:38:42,803 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter Product Information' is completed
+2013-06-09 20:38:42,804 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'A' Details'
+2013-06-09 20:38:42,806 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'A' Details' is completed and it has no script
+2013-06-09 20:38:42,806 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'Z' Details'
+2013-06-09 20:38:42,806 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'Z' Details' is completed and it has no script
+2013-06-09 20:38:42,807 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Order Submit'
+2013-06-09 20:38:42,808 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Order Submit' is completed and it has no script
+2013-06-09 20:38:42,899 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: 'Order Place' is completed
+2013-06-09 20:39:33,813 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-09 20:39:34,397 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-06-09 20:39:37,198 INFO [main] (com.automation.module.ProcessMain) – Row wise process started
+2013-06-09 20:39:37,200 INFO [main] (com.automation.module.ProcessMain) – Application finished............
+2013-06-09 20:39:37,201 INFO [main] (com.automation.module.ProcessMain) – Populating Scenario 'Order Place' bean object
+2013-06-09 20:39:37,202 INFO [main] (com.automation.module.ProcessMain) – creating HashMap  object having <variable name, value>
+2013-06-09 20:39:37,202 INFO [main] (com.automation.module.ProcessMain) – Hash Map object is created for 'Order Place'
+2013-06-09 20:39:37,203 INFO [main] (com.automation.module.ProcessMain) – Moving to next sheet 1 processing the scenario
+2013-06-09 20:39:37,203 INFO [main] (com.automation.module.ProcessScenario) – Searching the scenario 'Order Place'
+2013-06-09 20:39:50,632 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is started from row 1
+2013-06-09 20:39:50,633 INFO [main] (com.automation.module.ProcessScenario) – Scenario 'Order Place' is ended at row 7
+2013-06-09 20:39:50,637 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'ZSMART Login and Open Customer Page'
+2013-06-09 20:39:50,638 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-06-09 20:39:50,649 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-06-09 20:39:56,502 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'ZSMART Login and Open Customer Page' is completed
+2013-06-09 20:39:56,503 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Select Formal Order and Offer'
+2013-06-09 20:39:56,503 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-06-09 20:39:56,504 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=Gmail;Wait|3000
+2013-06-09 20:39:58,607 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Select Formal Order and Offer' is completed
+2013-06-09 20:39:58,608 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter Product Information'
+2013-06-09 20:39:58,614 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|Gmail: Email from Google;Sleep|[Time]
+2013-06-09 20:39:58,615 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|Gmail: Email from Google;Sleep|3000
+2013-06-09 20:40:02,708 INFO [main] (com.automation.module.ProcessScripts) – Expected value: Gmail: Email from Google is Pass
+2013-06-09 20:40:05,710 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter Product Information' is completed
+2013-06-09 20:40:05,711 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'A' Details'
+2013-06-09 20:40:05,712 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'A' Details' is completed and it has no script
+2013-06-09 20:40:05,712 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Enter 'Z' Details'
+2013-06-09 20:40:05,713 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Enter 'Z' Details' is completed and it has no script
+2013-06-09 20:40:05,714 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing subcenario 'Order Submit'
+2013-06-09 20:40:05,715 INFO [main] (com.automation.module.ProcessSubScenario) – Procesing of subcenario 'Order Submit' is completed and it has no script
+2013-06-09 20:40:05,824 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: 'Order Place' is completed
+2013-06-09 20:43:02,841 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-06-09 20:43:22,283 INFO [main] (com.automation.module.ProcessMain) – Application started ...........

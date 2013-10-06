@@ -1,0 +1,89 @@
+2013-09-09 16:07:18,663 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-09-09 16:07:55,281 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-09-09 16:08:01,634 INFO [main] (com.automation.module.ProcessMain) – Populating scenario map for all sheet : STARTED
+2013-09-09 16:08:37,066 INFO [main] (com.automation.module.ProcessMain) – Sheet no. are populated in set [1]
+2013-09-09 16:08:40,595 INFO [main] (com.automation.module.ProcessMain) – Sheet no. are populated in set [1]
+2013-09-09 16:09:55,113 INFO [main] (com.automation.module.ProcessMain) – Map for Scenario names are populated {null=[I@108e44d, Resource Design=[I@108e44d, Determine Delivery Date=[I@108e44d, Activate=[I@108e44d, Order Place=[I@108e44d, Validate=[I@108e44d, Data Archieve=[I@c4a6d8, Creation of New Card=[I@108e44d, Order ID retrieve=[I@108e44d, Creation of New Shelf=[I@108e44d}
+2013-09-09 16:16:47,290 INFO [main] (com.automation.module.ProcessMain) – Application finished with exception null
+2013-09-09 16:18:49,850 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-09-09 16:19:01,641 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-09-09 16:19:05,265 INFO [main] (com.automation.module.ProcessMain) – Populating scenario map for all sheet : STARTED
+2013-09-09 16:19:22,622 INFO [main] (com.automation.module.ProcessMain) – Sheet no. are populated in set [1]
+2013-09-09 16:19:25,595 INFO [main] (com.automation.module.ProcessMain) – Sheet no. are populated in set [1]
+2013-09-09 16:22:50,536 INFO [main] (com.automation.module.ProcessMain) – Map for Scenario names are populated {null=[I@1fa7bbf, Resource Design=[I@1fa7bbf, Determine Delivery Date=[I@1fa7bbf, Activate=[I@1fa7bbf, Order Place=[I@1fa7bbf, Validate=[I@1fa7bbf, Data Archieve=[I@169a562, Creation of New Card=[I@1fa7bbf, Order ID retrieve=[I@1fa7bbf, Creation of New Shelf=[I@1fa7bbf}
+2013-09-09 16:25:27,724 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-09-09 16:25:28,352 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-09-09 16:25:28,354 INFO [main] (com.automation.module.ProcessMain) – Populating scenario map for all sheet : STARTED
+2013-09-09 16:25:28,357 INFO [main] (com.automation.module.ProcessMain) – Sheet no. are populated in set [1]
+2013-09-09 16:25:28,358 INFO [main] (com.automation.module.ProcessMain) – Sheet no. are populated in set [1]
+2013-09-09 16:25:28,359 INFO [main] (com.automation.module.ProcessMain) – Map for Scenario names are populated {null=[I@8bed44, Resource Design=[I@8bed44, Determine Delivery Date=[I@8bed44, Activate=[I@8bed44, Order Place=[I@8bed44, Validate=[I@8bed44, Data Archieve=[I@8610c4, Creation of New Card=[I@8bed44, Order ID retrieve=[I@8bed44, Creation of New Shelf=[I@8bed44}
+2013-09-09 16:25:28,368 INFO [main] (com.automation.module.ProcessMain) – Scenario : Resource Design:: values :20 and 22
+2013-09-09 16:25:28,370 INFO [main] (com.automation.module.ProcessMain) – Scenario : Determine Delivery Date:: values :20 and 22
+2013-09-09 16:25:28,371 INFO [main] (com.automation.module.ProcessMain) – Scenario : Activate:: values :20 and 22
+2013-09-09 16:25:28,373 INFO [main] (com.automation.module.ProcessMain) – Scenario : Order Place:: values :20 and 22
+2013-09-09 16:25:28,374 INFO [main] (com.automation.module.ProcessMain) – Scenario : Validate:: values :20 and 22
+2013-09-09 16:25:28,375 INFO [main] (com.automation.module.ProcessMain) – Scenario : Data Archieve:: values :23 and 27
+2013-09-09 16:25:28,375 INFO [main] (com.automation.module.ProcessMain) – Scenario : Creation of New Card:: values :20 and 22
+2013-09-09 16:25:28,376 INFO [main] (com.automation.module.ProcessMain) – Scenario : Order ID retrieve:: values :20 and 22
+2013-09-09 16:25:28,377 INFO [main] (com.automation.module.ProcessMain) – Scenario : Creation of New Shelf:: values :20 and 22
+2013-09-09 16:25:28,380 INFO [main] (com.automation.module.ProcessTestCases) – In ProcessTestCases: START
+2013-09-09 16:25:28,387 INFO [main] (com.automation.module.ProcessTestCases) – Populating Scenario 'Order Place' bean object
+2013-09-09 16:25:28,388 INFO [main] (com.automation.module.ProcessTestCases) – creating HashMap for Order Place
+2013-09-09 16:25:28,426 INFO [main] (com.automation.module.ProcessTestCases) – Hash Map object is created for 'Order Place'
+2013-09-09 16:25:28,427 INFO [main] (com.automation.module.ProcessTestCases) – Moving to next sheet 1 processing the scenario
+2013-09-09 16:25:59,186 INFO [main] (com.automation.module.ProcessScenario) – Order Place : Start Row num:20 and End row Num:22
+2013-09-09 16:25:59,191 INFO [main] (com.automation.module.ProcessSubScenario) – Order Place - Procesing subcenario 'Refresh Button and Enter Order Id' STARTED
+2013-09-09 16:25:59,191 INFO [main] (com.automation.module.ProcessSubScenario) – Order Place - Procesing of subcenario 'Refresh Button and Enter Order Id' is completed and it has no script
+2013-09-09 16:25:59,192 INFO [main] (com.automation.module.ProcessSubScenario) – Order Place - Procesing subcenario 'Click Check-In button' STARTED
+2013-09-09 16:25:59,192 INFO [main] (com.automation.module.ProcessSubScenario) – Order Place - Procesing of subcenario 'Click Check-In button' is completed and it has no script
+2013-09-09 16:25:59,193 INFO [main] (com.automation.module.ProcessSubScenario) – Order Place - Procesing subcenario 'Select  OK' STARTED
+2013-09-09 16:25:59,194 INFO [main] (com.automation.module.ProcessSubScenario) – Order Place - Procesing of subcenario 'Select  OK' is completed and it has no script
+2013-09-09 16:25:59,194 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: 'Order Place' is completed
+2013-09-09 16:25:59,290 INFO [main] (com.automation.module.ProcessTestCases) – Writing into the file started
+2013-09-09 16:25:59,294 INFO [main] (com.automation.module.ProcessTestCases) – Writing the passed scenario
+2013-09-09 16:25:59,510 INFO [main] (com.automation.module.ProcessTestCases) – Hash Map object is cleared for 'Order Place'
+2013-09-09 16:25:59,511 INFO [main] (com.automation.module.ProcessTestCases) – Populating Scenario 'Resource Design' bean object
+2013-09-09 16:25:59,512 INFO [main] (com.automation.module.ProcessTestCases) – creating HashMap for Resource Design
+2013-09-09 16:25:59,513 INFO [main] (com.automation.module.ProcessTestCases) – Hash Map object is created for 'Resource Design'
+2013-09-09 16:25:59,513 INFO [main] (com.automation.module.ProcessTestCases) – Moving to next sheet 1 processing the scenario
+2013-09-09 16:26:07,556 INFO [main] (com.automation.module.ProcessScenario) – Resource Design : Start Row num:20 and End row Num:22
+2013-09-09 16:26:07,557 INFO [main] (com.automation.module.ProcessSubScenario) – Resource Design - Procesing subcenario 'Refresh Button and Enter Order Id' STARTED
+2013-09-09 16:26:07,558 INFO [main] (com.automation.module.ProcessSubScenario) – Resource Design - Procesing of subcenario 'Refresh Button and Enter Order Id' is completed and it has no script
+2013-09-09 16:26:07,559 INFO [main] (com.automation.module.ProcessSubScenario) – Resource Design - Procesing subcenario 'Click Check-In button' STARTED
+2013-09-09 16:26:07,559 INFO [main] (com.automation.module.ProcessSubScenario) – Resource Design - Procesing of subcenario 'Click Check-In button' is completed and it has no script
+2013-09-09 16:26:07,560 INFO [main] (com.automation.module.ProcessSubScenario) – Resource Design - Procesing subcenario 'Select  OK' STARTED
+2013-09-09 16:26:07,560 INFO [main] (com.automation.module.ProcessSubScenario) – Resource Design - Procesing of subcenario 'Select  OK' is completed and it has no script
+2013-09-09 16:26:07,561 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: 'Resource Design' is completed
+2013-09-09 16:26:07,639 INFO [main] (com.automation.module.ProcessTestCases) – Writing into the file started
+2013-09-09 16:26:07,639 INFO [main] (com.automation.module.ProcessTestCases) – Writing the passed scenario
+2013-09-09 16:26:07,669 INFO [main] (com.automation.module.ProcessTestCases) – Hash Map object is cleared for 'Resource Design'
+2013-09-09 16:26:07,670 INFO [main] (com.automation.module.ProcessMain) – Application is finished successfully .... 
+2013-09-09 16:27:40,453 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-09-09 16:27:48,698 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-09-09 16:27:52,442 INFO [main] (com.automation.module.ProcessMain) – Populating scenario map for all sheet : STARTED
+2013-09-09 16:28:00,829 INFO [main] (com.automation.module.ProcessMain) – Sheet no. are populated in set [1]
+2013-09-09 16:28:10,314 INFO [main] (com.automation.module.ProcessMain) – Sheet no. are populated in set [1]
+2013-09-09 18:39:42,360 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-09-09 18:39:43,211 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-09-09 18:39:43,227 INFO [main] (com.automation.module.ProcessMain) – Populating scenario map for all sheet : STARTED
+2013-09-09 18:39:43,230 INFO [main] (com.automation.module.ProcessMain) – Sheet no. are populated in set [1]
+2013-09-09 18:39:43,231 INFO [main] (com.automation.module.ProcessMain) – Sheet no. are populated in set [1]
+2013-09-09 18:39:43,232 INFO [main] (com.automation.module.ProcessMain) – Map for Scenario names are populated {Resource Design=[I@12036a1, Determine Delivery Date=[I@12036a1, default=[I@12036a1, Activate=[I@12036a1, Order Place=[I@12036a1, Validate=[I@12036a1, Data Archieve=[I@1e28fe3, Creation of New Card=[I@12036a1, Order ID retrieve=[I@12036a1, Creation of New Shelf=[I@12036a1}
+2013-09-09 18:39:43,232 INFO [main] (com.automation.module.ProcessMain) – Scenario : Resource Design:: values :20 and 22
+2013-09-09 18:39:43,233 INFO [main] (com.automation.module.ProcessMain) – Scenario : Determine Delivery Date:: values :20 and 22
+2013-09-09 18:39:43,234 INFO [main] (com.automation.module.ProcessMain) – Scenario : default:: values :20 and 22
+2013-09-09 18:39:43,234 INFO [main] (com.automation.module.ProcessMain) – Scenario : Activate:: values :20 and 22
+2013-09-09 18:39:43,234 INFO [main] (com.automation.module.ProcessMain) – Scenario : Order Place:: values :20 and 22
+2013-09-09 18:39:43,235 INFO [main] (com.automation.module.ProcessMain) – Scenario : Validate:: values :20 and 22
+2013-09-09 18:39:43,235 INFO [main] (com.automation.module.ProcessMain) – Scenario : Data Archieve:: values :23 and 27
+2013-09-09 18:39:43,236 INFO [main] (com.automation.module.ProcessMain) – Scenario : Creation of New Card:: values :20 and 22
+2013-09-09 18:39:43,236 INFO [main] (com.automation.module.ProcessMain) – Scenario : Order ID retrieve:: values :20 and 22
+2013-09-09 18:39:43,237 INFO [main] (com.automation.module.ProcessMain) – Scenario : Creation of New Shelf:: values :20 and 22
+2013-09-09 18:39:43,239 INFO [main] (com.automation.module.ProcessTestCases) – In ProcessTestCases: START
+2013-09-09 18:39:43,305 INFO [main] (com.automation.module.ProcessTestCases) – Populating Scenario 'Order Place' bean object
+2013-09-09 18:39:43,306 INFO [main] (com.automation.module.ProcessTestCases) – creating HashMap for Order Place
+2013-09-09 18:39:43,306 INFO [main] (com.automation.module.ProcessTestCases) – Hash Map object is created for 'Order Place'
+2013-09-09 18:39:43,307 INFO [main] (com.automation.module.ProcessTestCases) – Moving to next sheet 1 processing the scenario
+2013-09-09 18:40:40,701 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-09-09 18:41:14,886 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-09-09 18:41:43,637 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
