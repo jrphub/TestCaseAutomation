@@ -64,3 +64,69 @@ Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, j
 2013-10-06 23:44:49,931 INFO [main] (com.automation.module.ProcessTestCases) – Writing the passed scenario
 2013-10-06 23:44:49,955 INFO [main] (com.automation.module.ProcessTestCases) – Hash Map object is cleared for 'Resource Design'
 2013-10-06 23:44:49,956 INFO [main] (com.automation.module.ProcessMain) – Application is finished successfully .... 
+2013-10-07 01:16:23,135 INFO [main] (com.automation.module.ProcessMain) – Application started ...........
+2013-10-07 01:16:25,078 INFO [main] (com.automation.module.ProcessMain) – Processing the sheet 0
+2013-10-07 01:16:25,080 INFO [main] (com.automation.module.ProcessMain) – Populating scenario map for all sheet : STARTED
+2013-10-07 01:16:25,083 INFO [main] (com.automation.module.ProcessMain) – Sheet no. are populated in set [1]
+2013-10-07 01:16:25,084 INFO [main] (com.automation.module.ProcessMain) – Sheet no. are populated in set [1]
+2013-10-07 01:16:25,085 INFO [main] (com.automation.module.ProcessMain) – Map for Scenario names are populated {Resource Design=[I@1e28fe3, Determine Delivery Date=[I@154a2e6, default=[I@192d2ba, Activate=[I@48d0ea, Order Place=[I@8bed44, Validate=[I@8610c4, Data Archieve=[I@1b6e978, Creation of New Card=[I@199e2e2, Order ID retrieve=[I@1fe6f88, Creation of New Shelf=[I@14c8743}
+2013-10-07 01:16:25,086 INFO [main] (com.automation.module.ProcessMain) – Scenario : Resource Design:: start row index :17 and end row index :19
+2013-10-07 01:16:25,086 INFO [main] (com.automation.module.ProcessMain) – Scenario : Determine Delivery Date:: start row index :14 and end row index :16
+2013-10-07 01:16:25,087 INFO [main] (com.automation.module.ProcessMain) – Scenario : default:: start row index :0 and end row index :0
+2013-10-07 01:16:25,087 INFO [main] (com.automation.module.ProcessMain) – Scenario : Activate:: start row index :20 and end row index :22
+2013-10-07 01:16:25,088 INFO [main] (com.automation.module.ProcessMain) – Scenario : Order Place:: start row index :1 and end row index :6
+2013-10-07 01:16:25,088 INFO [main] (com.automation.module.ProcessMain) – Scenario : Validate:: start row index :11 and end row index :13
+2013-10-07 01:16:25,089 INFO [main] (com.automation.module.ProcessMain) – Scenario : Data Archieve:: start row index :23 and end row index :27
+2013-10-07 01:16:25,089 INFO [main] (com.automation.module.ProcessMain) – Scenario : Creation of New Card:: start row index :10 and end row index :10
+2013-10-07 01:16:25,090 INFO [main] (com.automation.module.ProcessMain) – Scenario : Order ID retrieve:: start row index :7 and end row index :7
+2013-10-07 01:16:25,090 INFO [main] (com.automation.module.ProcessMain) – Scenario : Creation of New Shelf:: start row index :8 and end row index :9
+2013-10-07 01:16:25,092 INFO [main] (com.automation.module.ProcessTestCases) – In ProcessTestCases: START
+2013-10-07 01:16:25,099 INFO [main] (com.automation.module.ProcessTestCases) – Populating Scenario 'Order Place' bean object
+2013-10-07 01:16:25,099 INFO [main] (com.automation.module.ProcessTestCases) – creating HashMap for Order Place
+2013-10-07 01:16:25,100 INFO [main] (com.automation.module.ProcessTestCases) – Hash Map object is created for 'Order Place'
+2013-10-07 01:16:25,100 INFO [main] (com.automation.module.ProcessTestCases) – Moving to next sheet 1 processing the scenario
+2013-10-07 01:16:47,808 INFO [main] (com.automation.module.ProcessScenario) – Order Place : Start Row num:1 and End row Num:6
+2013-10-07 01:16:47,811 INFO [main] (com.automation.module.ProcessSubScenario) – Order Place - Procesing subcenario 'ZSMART Login and Open Customer Page' STARTED
+2013-10-07 01:16:47,812 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-10-07 01:16:47,819 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-10-07 01:16:56,338 INFO [main] (com.automation.module.ProcessSubScenario) – Order Place - Procesing of subcenario 'ZSMART Login and Open Customer Page' is END
+2013-10-07 01:16:56,340 INFO [main] (com.automation.module.ProcessSubScenario) – Order Place - Procesing subcenario 'Select Formal Order and Offer' STARTED
+2013-10-07 01:16:56,340 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-10-07 01:16:56,341 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=Gmailllll;Wait|3000
+2013-10-07 01:16:58,616 ERROR [main] (com.automation.module.ProcessSubScenario) – Order Place - Execution of 'Select Formal Order and Offer' is FAILED due to 
+Unable to locate element: {"method":"link text","selector":"Gmailllll"}
+Command duration or timeout: 2.20 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.27.0', revision: '18259', time: '2012-12-05 19:24:26'
+System info: os.name: 'Linux', os.arch: 'i386', os.version: '3.5.0-17-generic', java.version: '1.7.0_15'
+Session ID: c512b778-7bf5-45db-aad2-b7733d001336
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=16.0.1}]
+2013-10-07 01:16:58,925 INFO [main] (com.automation.module.ProcessScenario) – Screenshot is created
+2013-10-07 01:16:58,925 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: 'Order Place' is completed with error
+2013-10-07 01:16:59,053 INFO [main] (com.automation.module.ProcessTestCases) – Writing into the file started
+2013-10-07 01:16:59,058 INFO [main] (com.automation.module.ProcessTestCases) – Writing the failed scenario
+2013-10-07 01:16:59,180 INFO [main] (com.automation.module.ProcessTestCases) – Hash Map object is cleared for 'Order Place'
+2013-10-07 01:16:59,182 INFO [main] (com.automation.module.ProcessTestCases) – Populating Scenario 'Resource Design' bean object
+2013-10-07 01:16:59,183 INFO [main] (com.automation.module.ProcessTestCases) – creating HashMap for Resource Design
+2013-10-07 01:16:59,184 INFO [main] (com.automation.module.ProcessTestCases) – Hash Map object is created for 'Resource Design'
+2013-10-07 01:16:59,184 INFO [main] (com.automation.module.ProcessTestCases) – Moving to next sheet 1 processing the scenario
+2013-10-07 01:17:08,150 INFO [main] (com.automation.module.ProcessScenario) – Resource Design : Start Row num:17 and End row Num:19
+2013-10-07 01:17:08,151 INFO [main] (com.automation.module.ProcessSubScenario) – Resource Design - Procesing subcenario 'Refresh Button and Enter Order Id' STARTED
+2013-10-07 01:17:08,151 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Open|[Link];wait|[Time]
+2013-10-07 01:17:08,152 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Open|https://www.google.co.in/;wait|3000
+2013-10-07 01:17:15,260 INFO [main] (com.automation.module.ProcessSubScenario) – Resource Design - Procesing of subcenario 'Refresh Button and Enter Order Id' is END
+2013-10-07 01:17:15,261 INFO [main] (com.automation.module.ProcessSubScenario) – Resource Design - Procesing subcenario 'Click Check-In button' STARTED
+2013-10-07 01:17:15,262 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  Click|linkText=[Link Text];Wait|[Time]
+2013-10-07 01:17:15,263 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: Click|linkText=News;Wait|3000
+2013-10-07 01:17:17,037 INFO [main] (com.automation.module.ProcessSubScenario) – Resource Design - Procesing of subcenario 'Click Check-In button' is END
+2013-10-07 01:17:17,038 INFO [main] (com.automation.module.ProcessSubScenario) – Resource Design - Procesing subcenario 'Select  OK' STARTED
+2013-10-07 01:17:17,039 INFO [main] (com.automation.module.ProcessSubScenario) – Script Rule is:  AssertMsg|Google News;Sleep|[Time]
+2013-10-07 01:17:17,039 INFO [main] (com.automation.module.ProcessScripts) – Actual Script is: AssertMsg|Google News;Sleep|3000
+2013-10-07 01:17:31,439 INFO [main] (com.automation.module.ProcessScripts) – Expected value: Google News is Pass
+2013-10-07 01:17:34,440 INFO [main] (com.automation.module.ProcessSubScenario) – Resource Design - Procesing of subcenario 'Select  OK' is END
+2013-10-07 01:17:34,474 INFO [main] (com.automation.module.ProcessScenario) – Processing of scenario: 'Resource Design' is completed
+2013-10-07 01:17:35,258 INFO [main] (com.automation.module.ProcessTestCases) – Writing into the file started
+2013-10-07 01:17:35,266 INFO [main] (com.automation.module.ProcessTestCases) – Writing the passed scenario
+2013-10-07 01:17:35,303 INFO [main] (com.automation.module.ProcessTestCases) – Hash Map object is cleared for 'Resource Design'
+2013-10-07 01:17:35,303 INFO [main] (com.automation.module.ProcessMain) – Application is finished successfully .... 

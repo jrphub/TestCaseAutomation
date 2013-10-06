@@ -15,7 +15,19 @@ This paper covers an approach for guidance of QA people for preparation of an au
 </h4>
 <b>Step-1: </b> Get the Source code
 <br>
-<b>Step-2: </b> Add below jar files in project's classpath
+<p>(But How?)</p>
+<p><b>Method 1 :</b>Download the zip folder from right side bar of this page and import the project to the workspace <br/>
+in Eclipse: File -> import -> General -> Existing Projects into Workspace -> follow the steps and Finish</p>
+<p><b>Method 2 :</b>(Using Git)</p>
+<ol>
+<li>open terminal</li>
+<li>git clone  https://github.com/jrphub/TestCaseAutomation.git</li>
+<li>import the project to the workspace <br/>
+in Eclipse: File -> import -> General -> Existing Projects into Workspace -> follow the steps and Finish</li>
+</ol>
+<b>Step-2: </b> Add below jar files in project's buildpath
+<p>Right click on project in Eclipse and go to properties</p>
+<p>Java buildpath -> libraries -> Add External Jars </p>
 <ol>
 	<li>log4j</li>
 	<li>POI</li>
